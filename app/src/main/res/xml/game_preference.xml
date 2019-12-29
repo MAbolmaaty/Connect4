@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListPreference
+        android:defaultValue="@string/pref_color_blue_value"
+        android:entries="@array/pref_board_color_labels"
+        android:entryValues="@array/pref_board_color_values"
+        android:key="@string/pref_board_color_key"
+        android:title="@string/pref_board_color_label"/>
+</PreferenceScreen>
